@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>active category</title>
+    <link rel="icon" href="/icons/Frame 33.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/css.css">
+    <link rel="stylesheet" href="/css/category.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <section class="navigation">
+            <div class="nav_top">
+                <div class="top_items">
+                    <div class="logo-toggle"><img src="/icons/small.svg" alt=""></div>
+                    <div class="date">
+                        <icon class="calender"><img src="/icons/Calendar_Days 1.svg" alt="calender icon"></icon>
+                        <span id="date_items">
+                                <script>
+                                    function displayDate() {
+                                        const dateElement = document.getElementById("date_items");
+                                        const currentDate = new Date().toDateString();
+                                        dateElement.innerHTML += ` ${currentDate}`;
+                                    }
+                                    displayDate();
+                                </script>                          
+                        </span>
+                    </div>
+                    <div class="links">
+                        <ul id="main_nav">
+                            <li><a href="about page" id="mainlinks">About</a></li>
+                            <li><a href="Contact page" id="mainlinks">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="socials">
+                        <a href="instagrm link"><img src="/icons/intagram black.svg" alt="instagram icon"></a>
+                        <a href="x link"><img src="/icons/titter black.svg" alt="twitter icon"></a>
+                        <a href="facebook"><img src="/icons/faceboom black.svg" alt="facebook icon"></a>
+                        <a href="youtube link"><img src="/icons/faceboom black.svg" alt="linkedin icon"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav_ads">
+                <a href="mainlink" id="logo_img"><img src="/icons/header logo desktop.svg" alt="smoove logo"></a>
+               <div id="ads_div"><img id="adds" src="/icons/ad.png" alt="adds"></div>
+            </div>
+
+            <div class="nav_down">
+                <div id="down_items">
+                    <nav class="links">
+                        <ul id="link_items">
+                            <li id="active"><a id="active_text" href="news section"></a>News</li>
+                            <li id="items"><a id="active_text2" href="sports section">Sports</a></li>
+                            <li id="items"><a id="active_text2" href="lifestyle section">Lifestyle</a></li>
+                            <li id="items"><a id="active_text2" href="entertainment section">Entertainment</a></li>
+                            <li id="items"><a id="active_text2" href="technology section">Technology</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="menu">
+                        <img src="menu 2.svg" alt="menu icon">
+                    </div>
+                    <section class="search">
+                        <input type="text" id="searchInput" placeholder="Enter your search..." >
+                        <a href="#" id="searchIcon"><img src="/icons/search.svg" alt="search icon"></a>
+                        <a href="#" id="searchCloseIcon">&#10006;</a>
+                    </section>                    
+
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="wrapper">
+        <!-- main slider -->
+        <section class="top">
+            <div class="slider">
+                <div class="content_image"><img src="get image from the category post post" alt=""></div>
+                <div class="content_text">
+                    <span id="time"><img id="clock_icon" src="/icons/Clock 1.svg" alt="">
+                        <p id="time_posted">get the time the post was made</p></span>
+                    <div id="title">
+                        <h1>get title of the post</h1>
+                        <p id="description">get the brief or summary of the post (excerpt)</p>
+                        <span id="important-timesend">
+                            <p id="reading_minutes">calculat reading time based on th number of words in the post</p>
+                            <button>Read Article <img src="/icons/Arrow_Right_SM 1.svg" alt="right arrow"></button>
+                            <a href="share post to various social media"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                        </span>
+                </div>
+            </div>
+
+
+            <!-- latest updates -->
+            <hr>
+                <h3>LATEST UPDATE</h3>
+
+                <!-- this should be three times. (the update_links, should have three post). check the figma file -->
+                <a href="" class="update_links">
+                        <div class="update_content">
+                            <div id="update_image_bakcground"><img src="get image from post" alt=""></div>
+                            <h3 id="title_of_post">get title of next recent post</h3>
+                            <p id="upnext_description">get description of post (excerpt)</p>
+                            <div id="time_share">
+                                <img src="/icons/Clock 1.svg" alt="time icon">
+                                <p id="time_posted">get the time the post was made</p>
+                                <a href="share post to various social media"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                            </div>
+                        </div>
+                </a>
+        </section>
+
+
+        <!-- second section, all sports news section -->
+        <section class="down">
+
+            <!-- left column -->
+            <div id="left_col">
+                <div class="sports_main_image"><img src="get image from the category post" alt=""></div>
+                <div class="sport_main_text">
+                    <span id="time"><img id="clock_icon" src="/icons/Clock 1.svg" alt="">
+                        <p id="time_posted">get the time the post was made</p></span>
+                    <div id="title">
+                        <h1>get title of the post</h1>
+                        <p id="description">get the brief or summary of the post (excerpt)</p>
+                        <span id="important-timesend">
+                            <p id="reading_minutes">calculate reading time based on th number of words in the post</p>
+                            <button>Read Article <img src="/icons/Arrow_Right_SM 1.svg" alt="right arrow"></button>
+                            <a href="share post to various social media"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                        </span>
+                </div>
+            </div>
+
+            <!-- right col -->
+            <!-- this should be three times. (should have three post). check the figma file -->
+            <div id="right_col">
+                <div id="next_post">
+                    <div id="image"><img src="get image from post" alt=""></div>
+                    <div id="next_post_content">
+                        <h3 id="next_post_title">get the title of the post</h3>
+                        <p id="next_post_excerpt"> get the decription of the post here</p>
+                        <div id="next_post_time_share">
+                            <img src="/icons/Clock 1.svg" alt="time icon">
+                            <p id="next_post_time_posted">get the time the post was made</p>
+                            <a href="share post to various social media"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

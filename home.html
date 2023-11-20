@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoove 247 News</title>
+    <link rel="icon" href="/icons/Frame 33.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/css.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <section class="navigation">
+            <div class="nav_top">
+                <div class="top_items">
+                    <div class="logo-toggle"><img src="/icons/small.svg" alt=""></div>
+                    <div class="date">
+                        <icon class="calender"><img src="/icons/Calendar_Days 1.svg" alt="calender icon"></icon>
+                        <span id="date_items">
+                                <script>
+                                    function displayDate() {
+                                        const dateElement = document.getElementById("date_items");
+                                        const currentDate = new Date().toDateString();
+                                        dateElement.innerHTML += ` ${currentDate}`;
+                                    }
+                                    displayDate();
+                                </script>                          
+                        </span>
+                    </div>
+                    <div class="links">
+                        <ul id="main_nav">
+                            <li><a href="about page" id="mainlinks">About</a></li>
+                            <li><a href="Contact page" id="mainlinks">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="socials">
+                        <a href="instagrm link"><img src="/icons/intagram black.svg" alt="instagram icon"></a>
+                        <a href="x link"><img src="/icons/titter black.svg" alt="twitter icon"></a>
+                        <a href="facebook"><img src="/icons/faceboom black.svg" alt="facebook icon"></a>
+                        <a href="youtube link"><img src="/icons/faceboom black.svg" alt="linkedin icon"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav_ads">
+                <a href="mainlink" id="logo_img"><img src="/icons/header logo desktop.svg" alt="smoove logo"></a>
+               <div id="ads_div"><img id="adds" src="/icons/ad.png" alt="adds"></div>
+            </div>
+
+            <div class="nav_down">
+                <div id="down_items">
+                    <nav class="links">
+                        <ul id="link_items">
+                            <li id="active"><a id="active_text" href="news section"></a>News</li>
+                            <li id="items"><a id="active_text2" href="sports section">Sports</a></li>
+                            <li id="items"><a id="active_text2" href="lifestyle section">Lifestyle</a></li>
+                            <li id="items"><a id="active_text2" href="entertainment section">Entertainment</a></li>
+                            <li id="items"><a id="active_text2" href="technology section">Technology</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="menu">
+                        <img src="menu 2.svg" alt="menu icon">
+                    </div>
+                    <section class="search">
+                        <input type="text" id="searchInput" placeholder="Enter your search..." >
+                        <a href="#" id="searchIcon"><img src="/icons/search.svg" alt="search icon"></a>
+                        <a href="#" id="searchCloseIcon">&#10006;</a>
+                    </section>                    
+
+                </div>
+            </div>
+        </section>
+    </header>
+
+<main class="index">
+    <section class="breaking_news">
+        <span class="news_title">
+            <h4>BREAKING NEWS</h4>
+        </span>
+        <div class="breaking_content">
+            <div class="news1">
+                <div class="img_placeholder"></div>
+                <div id="news1_element">
+                    <h4>Discover the secret in <br> Sahara Desert</h4>
+                    <span id="time_send">
+                        <img id="clock_icon" src="/icons/Clock 1.svg" alt="">
+                        <p id="time_posted">24 minutes</p>
+                        <a href="share"><img id="share_icon" src="Share_iOS_Export 1.svg" alt=""></a>
+                    </span>
+                </div>
+
+            </div>
+            <div class="news1">
+                <div class="img_placeholder"></div>
+                <div id="news1_element">
+                    <h4>Discover the secret in <br> Sahara Desert</h4>
+                    <span id="time_send">
+                        <img id="clock_icon" src="/icons/Clock 1.svg" alt="">
+                        <p id="time_posted">24 minutes</p>
+                        <a href="share"><img id="share_icon" src="Share_iOS_Export 1.svg" alt=""></a>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="hot_trends">
+        <div class="hottrends_top">
+            <h4>HOT TRENDS</h4>
+        </div>
+        <div class="hottrends_down">
+            <div class="leftcol">
+                <div id="adss"></div>
+                <div id="adss"></div>
+            </div>
+            <div class="middlecol">
+                <div id="middle_content">
+                    <span id="maintext">
+                        <h2>Ghana to receive IMF of $600M on Monday.</h2>
+                        <p id="brief">
+                            The less concern for the materials by workers also plays a part in the damage to the materials. Workers are supposed to protect and maintain the quality condition of the materials they use and ensure that there are fewer damages. but it is quite the opposite here. 
+                        </p>
+                        <span id="timesend">
+                            <img id="clock_icon" src="/icons/Clock 1.svg" alt="">
+                            <p id="time_posted">24 minutes</p>
+                            <a href="to category" id="category_link">Movies</a>
+                            <p id="reading_minutes">
+                                4 minutes
+                            </p>
+                            <a href="share"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="rightcol"></div>
+        </div>
+    </section>
+
+    <main class="important">
+        <div id="background-image"></div>
+        <div id="content">
+            <span id="time"><img id="clock_icon" src="/icons/Clock 1.svg" alt="">
+                <p id="time_posted">24 minutes</p></span>
+            <div id="title">
+                <h1>Ghana to receive IMF of $600M on Monday.</h1>
+                <p id="description">The less concern for the materials by workers also plays a part in the damage to the materials. Workers are supposed to protect and maintain the quality condition of the materials they use and ensure that there are fewer damages.; but it is quite the opposite here. </p>
+                <span id="important-timesend">
+                    <a href="to category" id="category_link">Business</a>
+                    <p id="reading_minutes">4 minutes</p>
+                    <button>Read Article <img src="/icons/Arrow_Right_SM 1.svg" alt="right arrow"></button>
+                    <a href="share"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                </span>
+            </div>
+        </div>
+    </main>
+
+    <section class="lifestyles">
+        <div class="lifestyle-left">
+           <section class="important">
+            <span class="title">
+                <h4>BREAKING NEWS</h4>
+            </span>
+            <div id="main-content">
+                <div class="image-placeholder"></div>
+                <div id="title-description">
+                    <h4>Ghana to receive IMF of $600M on Monday.</h4>
+                    <p> The less concern for the materials by workers also plays a part in the damage to the materials. </p>
+                </div>
+                <span id="lifestyle-timesend">
+                    <a href="to category" id="category_link">Lifestyle</a>
+                    <p id="reading_minutes">4 minutes</p>
+                    <button>Read Article <img src="/icons/Arrow_Right_SM 1.svg" alt="right arrow"></button>
+                    <a href="share"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                </span>
+            </div>
+           </section>
+            <div id="content-down">
+                <div id="lifestyle-update">
+                    <div id="update-image"></div>
+                    <div id="update-title">
+                        <h5>Discover the secret in Sahara Desert</h5>
+                        <span id="update-timesend">
+                            <img id="clock_icon" src="/icons/Clock 1.svg" alt="">
+                            <p id="time_posted">24 minutes</p>
+                            <a href="share"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                        </span>
+                    </div>
+                </div>
+                <div id="lifestyle-update">
+                    <div id="update-image"></div>
+                    <div id="update-title">
+                        <h5>Discover the secret in Sahara Desert</h5>
+                        <span id="update-timesend">
+                            <img id="clock_icon" src="/icons/Clock 1.svg" alt="">
+                            <p id="time_posted">24 minutes</p>
+                            <a href="share"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                        </span>
+                    </div>
+                </div>
+                <div id="lifestyle-update">
+                    <div id="update-image"></div>
+                    <div id="update-title">
+                        <h5>Discover the secret in Sahara Desert</h5>
+                        <span id="update-timesend">
+                            <img id="clock_icon" src="/icons/Clock 1.svg" alt="">
+                            <p id="time_posted">24 minutes</p>
+                            <a href="share"><img id="share_icon" src="/icons/Share_iOS_Export 1.svg" alt=""></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="ads"></div>
+        </div>
+        <div class="lifestyle-right">
+            <div id="lifestyle-miniad"></div>
+            <div class="podcast">
+                <span class="title">
+                    <a href="podcast link"><h4>NEW PODCAST</h4><img src="/icons/right.svg" alt="arrow"></a>
+                </span>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="last-wrapper">
+        <div class="col-one">
+            <span class="title">
+                <a href="podcast link"><h4>SPORTS</h4><img src="/icons/right.svg" alt="arrow"></a>
+            </span>
+           <section class="top">
+            <div id="col-image"></div>
+            <h6 id="col-name">Sports</h6>
+            <p id="description">Ghana sees new future with the new leaders on board</p>
+           </section>
+           <hr>
+           <section class="down">
+            <div class="selection">
+                <div id="content-image"></div>
+                <div id="content-text">
+                    <p id="weeks-posted">2 weeks ago</p>
+                    <p id="title">27 advices for young entreneur</p>
+                    <p id="des">The less concern for the materials by workers also plays a part in the damage to the materials.</p>
+                </div>
+            </div>
+            <div class="selection">
+                <div id="content-image"></div>
+                <div id="content-text">
+                    <p id="weeks-posted">2 weeks ago</p>
+                    <p id="title">27 advices for young entreneur</p>
+                    <p id="des">The less concern for the materials by workers also plays a part in the damage to the materials.</p>
+                </div>
+            </div>
+            <div class="selection">
+                <div id="content-image"></div>
+                <div id="content-text">
+                    <p id="weeks-posted">2 weeks ago</p>
+                    <p id="title">27 advices for young entreneur</p>
+                    <p id="des">The less concern for the materials by workers also plays a part in the damage to the materials.</p>
+                </div>
+            </div>
+           </section>
+        </div>
+        <div class="col-one">
+            <span class="title">
+                <a href="podcast link"><h4>ENTERTAIMENT</h4><img src="/icons/right.svg" alt="arrow"></a>
+            </span>
+           <section class="top">
+            <div id="col-image"></div>
+            <h6 id="col-name">Entertainment</h6>
+            <p id="description">Ghana sees new future with the new leaders on board</p>
+           </section>
+           <hr>
+           <section class="down">
+            <div class="selection">
+                <div id="content-image"></div>
+                <div id="content-text">
+                    <p id="weeks-posted">2 weeks ago</p>
+                    <p id="title">27 advices for young entreneur</p>
+                    <p id="des">The less concern for the materials by workers also plays a part in the damage to the materials.</p>
+                </div>
+            </div>
+            <div class="selection">
+                <div id="content-image"></div>
+                <div id="content-text">
+                    <p id="weeks-posted">2 weeks ago</p>
+                    <p id="title">27 advices for young entreneur</p>
+                    <p id="des">The less concern for the materials by workers also plays a part in the damage to the materials.</p>
+                </div>
+            </div>
+            <div class="selection">
+                <div id="content-image"></div>
+                <div id="content-text">
+                    <p id="weeks-posted">2 weeks ago</p>
+                    <p id="title">27 advices for young entreneur</p>
+                    <p id="des">The less concern for the materials by workers also plays a part in the damage to the materials.</p>
+                </div>
+            </div>
+           </section>
+        </div>
+        <div class="col-one">
+            <span class="title">
+                <a href="podcast link"><h4>TECHNOLOGY</h4><img src="/icons/right.svg" alt="arrow"></a>
+            </span>
+           <section class="top">
+            <div id="col-image"></div>
+            <h6 id="col-name">Technology</h6>
+            <p id="description">Ghana sees new future with the new leaders on board</p>
+           </section>
+           <hr>
+           <section class="down">
+            <div class="selection">
+                <div id="content-image"></div>
+                <div id="content-text">
+                    <p id="weeks-posted">2 weeks ago</p>
+                    <p id="title">27 advices for young entreneur</p>
+                    <p id="des">The less concern for the materials by workers also plays a part in the damage to the materials.</p>
+                </div>
+            </div>
+            <div class="selection">
+                <div id="content-image"></div>
+                <div id="content-text">
+                    <p id="weeks-posted">2 weeks ago</p>
+                    <p id="title">27 advices for young entreneur</p>
+                    <p id="des">The less concern for the materials by workers also plays a part in the damage to the materials.</p>
+                </div>
+            </div>
+            <div class="selection">
+                <div id="content-image"></div>
+                <div id="content-text">
+                    <p id="weeks-posted">2 weeks ago</p>
+                    <p id="title">27 advices for young entreneur</p>
+                    <p id="des">The less concern for the materials by workers also plays a part in the damage to the materials.</p>
+                </div>
+            </div>
+           </section>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <section class="top">
+            <div class="left">
+                <div class="footer-logo">
+                    <img src="Frame 33.svg" alt="smoove logo"><span>Smoove</span>
+                </div>
+                <div class="footlinks">
+                    <a href="" id="footer-links">About</a>
+                    <a href="" id="footer-links">Contact</a>
+                    <a href="" id="footer-links">Lifestyle</a>
+                    <a href="" id="footer-links">Sports</a>
+                    <a href="" id="footer-links">Business</a>
+                    <a href="" id="footer-links">Entertainment</a>
+                    <a href="" id="footer-links">Podcasts</a>
+                </div>
+            </div>
+            <div class="right">
+                <div id="newsletter">
+                    <p id="newletter-text">
+                        Get the latest updates on news, lifestyle, sports,<br> entertainment and business brought straight to your <br>email.
+                    </p>
+                    <form action="" id="newsletter">
+                        <label for="email"></label>
+                        <input type="email" placeholder="Enter your email here" id="footer-email">
+                        <button name="submit" value="submit" id="footer-submit">submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <hr><div id="rule"></div>
+        <section class="down">
+            <div id="span">
+                <a href="instagrm link"><img src="InstagramLogo 1.svg" alt="instagram icon"></a>
+                <a href="x link"><img src="TwitterLogo 1.svg" alt="twitter icon"></a>
+                <a href="facebook"><img src="FacebookLogo 1.svg" alt="facebook icon"></a>
+                <a href="youtube link"><img src="LinkedinLogo 1.svg" alt="linkedin icon"></a>
+                <a href="telegram link"><img src="TelegramLogo 1.svg" alt="telegram icon"></a>
+            </div>
+            <div id="span">
+                <div id="footer-ads"></div>
+                <div id="footer-ads"></div>
+                <div id="footer-ads"></div>
+                <div id="footer-ads"></div>
+            </div>
+            <div id="span2">
+                <h5>
+                    &copy;2023
+                </h5>
+                <h5>
+                    Terms of Service
+                </h5>
+                <h5>
+                    Privacy Policy
+                </h5>
+            </div>
+        </section>
+    </footer>
+
+
+
+
+
+     <!-- srcipt code snippet -->
+     <script>
+        window.addEventListener('scroll', function() {
+        var navTop = document.querySelector('.nav_top');
+        var logoToggle = document.querySelector('.logo-toggle');
+        
+        if (window.scrollY > 0) {
+            navTop.style.position = 'fixed';
+            navTop.style.top = '0';
+            navTop.style.left = '0';
+            logoToggle.style.display = 'block'; // Show the logo-toggle element
+        } else {
+            navTop.style.position = 'relative';
+            logoToggle.style.display = 'none'; // Hide the logo-toggle element
+        }
+    });
+
+    // Simulate scrolling on page load
+    window.scrollTo(0, 1);
+        // Simulate scrolling on page load
+        window.scrollTo(0, 1);
+    
+        // menu expanding
+        var menu = document.querySelector('.menu');
+        var linkItems = document.querySelector('#link_items');
+        var mainNav = document.querySelector('#main_nav');
+
+        
+    // Event listener for the "menu" element
+    menu.addEventListener('click', function() {
+            // Toggle the display of the link_items container
+            linkItems.style.display = (linkItems.style.display === 'block') ? 'none' : 'block';
+    
+            // Toggle the display of the main_nav container
+            mainNav.style.display = (mainNav.style.display === 'block') ? 'none' : 'block';
+        });
+    
+        // Event listener for the link_items overlay (to hide it when clicked)
+        linkItems.addEventListener('click', function() {
+            linkItems.style.display = 'none';
+            mainNav.style.display = 'none'; // Hide main_nav when overlay is clicked
+        });
+    
+        function toggleMenu() {
+            const linkItems = document.getElementById("link_items");
+            linkItems.classList.toggle("active"); // Add or remove "active" class
+            
+            const mainNav = document.getElementById("main_nav");
+            mainNav.classList.toggle("active"); // Add or remove "active" class for #main_nav
+        }
+    
+    
+        // searching
+        const searchInput = document.getElementById("searchInput");
+        const searchIcon = document.getElementById("searchIcon");
+        const searchCloseIcon = document.getElementById("searchCloseIcon");
+    
+        searchIcon.addEventListener("click", function() {
+            searchInput.style.display = "block";
+            searchCloseIcon.style.display = "block";
+            searchInput.focus(); // Set focus on the search input
+        });
+    
+        searchCloseIcon.addEventListener("click", function() {
+            searchInput.style.display = "none";
+            searchCloseIcon.style.display = "none";
+        });
+    
+        // Add event listener for search icon to perform search
+        searchIcon.addEventListener("click", function() {
+            if (searchInput.style.display === "block") {
+                const searchTerm = searchInput.value.trim();
+                if (searchTerm !== "") {
+                    // Perform a search action based on the searchTerm
+                    // For example, you can redirect the user to a search results page:
+                    window.location.href = "search-results.html?q=" + encodeURIComponent(searchTerm);
+                }
+            }
+        });
+    
+        // Initially hide search input and close icon
+        searchInput.style.display = "none";
+        searchCloseIcon.style.display = "none";
+    </script>
+    
+
+
+</body>
+</html>

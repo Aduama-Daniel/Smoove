@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get the current blog reading post</title>
+    <!-- <link rel="script" href="javascript.js"> -->
+    <link rel="stylesheet" href="blog_read.css">
+    <link rel="icon" href="Frame 33.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <header class="header">
+        <section class="navigation">
+            <div class="nav_top">
+                <div class="top_items">
+                    <div class="logo-toggle"><img src="desktop small.svg" alt=""></div>
+                    <div class="date">
+                        <icon class="calender"><img src="Calendar_Days 1.svg" alt="calender icon"></icon>
+                        <span id="date_items">
+                                <script>
+                                    function displayDate() {
+                                        const dateElement = document.getElementById("date_items");
+                                        const currentDate = new Date().toDateString();
+                                        dateElement.innerHTML += ` ${currentDate}`;
+                                    }
+                                    displayDate();
+                                </script>                          
+                        </span>
+                    </div>
+                    <div class="links">
+                        <ul id="main_nav">
+                            <li><a href="about page" id="mainlinks">About</a></li>
+                            <li><a href="Contact page" id="mainlinks">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="socials">
+                        <a href="instagrm link"><img src="intagram black.svg" alt="instagram icon"></a>
+                        <a href="x link"><img src="titter black.svg" alt="twitter icon"></a>
+                        <a href="facebook"><img src="faceboom black.svg" alt="facebook icon"></a>
+                        <a href="youtube link"><img src="youtube black.svg" alt="linkedin icon"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav_ads">
+                <a href="mainlink" id="logo_img"><img src="header logo desktop.svg" alt="smoove logo"></a>
+               <div id="ads_div"><img id="adds" src="ad.png" alt="adds"></div>
+            </div>
+
+            <div class="nav_down">
+                <div id="down_items">
+                    <nav class="links">
+                        <ul id="link_items">
+                            <li id="active"><a id="active_text" href="news section"></a>News</li>
+                            <li id="items"><a id="active_text2" href="sports section">Sports</a></li>
+                            <li id="items"><a id="active_text2" href="lifestyle section">Lifestyle</a></li>
+                            <li id="items"><a id="active_text2" href="entertainment section">Entertainment</a></li>
+                            <li id="items"><a id="active_text2" href="technology section">Technology</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="menu">
+                        <img src="menu 2.svg" alt="menu icon">
+                    </div>
+
+                    <!-- <section class="search">
+                        <input type="text" id="searchInput" placeholder="Enter your search...">
+                        <a href="#" id="searchIcon"><img src="search.svg" alt="search icon"></a>
+                        <a href="#" id="searchIcon" onclick="toggleSearchInput()">
+                            <img src="search.svg" alt="search icon">
+                        </a>                        
+                    </section> -->
+
+
+                    <section class="search">
+                        <input type="text" id="searchInput" placeholder="Enter your search..." >
+                        <a href="#" id="searchIcon"><img src="search.svg" alt="search icon"></a>
+                        <a href="#" id="searchCloseIcon">&#10006;</a>
+                    </section>                    
+
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <main class="main-content">
+        <section class="main_container">
+
+            <section class="blog_post_container">
+                <div class="head_section">
+                    <div class="blog_links">
+                        <img src="Frame 33.svg" alt="">
+                        <button id="category_link"><h6>NEWS</h6>
+                            <img src="right.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="blogtitle_des">
+                         <h1 id="post_title">Pages and Scrolls releases the next episode on ‘Shadows of Deception’.</h1>
+                         <p id="description">In recent years, the use of digital technology has become ubiquitous, and digital devices have become an integral part of our lives and has affected how we communicate, access information, and entertain ourselves. Advances in modern technology has immensely shaped today’s world and adroitness in usage of Information Technology (IT) is now considered a vital skill. Digital nativity was first coined using age as the factor of differences in separating individuals. Individuals who grew up with this technology has been referred to as the ‘Digital Natives’ (Prensky, 2001). In his conceptualisation, he categorised individuals into two groups.
+                            </p>
+                         <div id="socials_time">
+                            <img id="clock_icon" src="111.svg" alt="">
+                            <p id="blog_time_posted">24 minutes</p>
+                            <div class="socials">
+                                <a href="instagrm link"><img src="intagram black.svg" alt="instagram icon"></a>
+                                <a href="x link"><img src="titter black.svg" alt="twitter icon"></a>
+                                <a href="facebook"><img src="faceboom black.svg" alt="facebook icon"></a>
+                                <a href="youtube link"><img src="youtube black.svg" alt="linkedin icon"></a>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+    
+                <div class="blog_content">
+                    <p id="content_itself">Pages and Scrolls releases the next episode on ‘Shadows of Deception’. In recent years, the use of digital technology has become ubiquitous, and digital devices have become an integral part of our lives and has affected how we communicate, access information, and entertain ourselves. Advances in modern technology has immensely shaped today’s world and adroitness in usage of Information Technology (IT) is now considered a vital skill. Digital nativity was first coined using age as the factor of differences in separating individuals. Individuals who grew up with this technology has been referred to as the ‘Digital Natives’ (Prensky, 2001). In his conceptualisation, he categorised individuals into two groups.  The first are those who are the native speakers of the digital language. Those who grew up with technology and can easily adapt to IT. The second is the generation before the advancement in IT. The ‘Digital Immigrants,’ the non-speakers of the digital language and they meet difficulties in adapting to the technological environment. Digital natives are characterised using four traits; those who grew up with technology, are comfortable with multi-tasking, reliant on instant gratification and frequent reward. As novices, digital natives prefer random access and work best when networked. They prefer games to serious work and like to parallel processes. Proposal of digital nativity construct has sparked considerable research interests. However, concurrence has yet to be reached among researchers on how to inferentially find digital natives (Wang et al., 2019). 
+                           Though some studies support that digital natives tend to report higher levels of its usages and acceptance than the digital immigrants (Hoffman et al., 2014). Other studies documented that considerable numbers of younger users tend to be less competent in utilising IT than what scholars had initially proposed (Calvani et al., 2012). There has been doubting Scholars about age as the primary factor explaining the distinction between digital natives and immigrants (Bennett Maton & Kervin, 2008). Even though digital natives express a stronger desire for IT usage, there are differences in the IT usage prior to experience preferences and behavioural inclination.  
+                           If age was the only defining factor of digital nativity, then the hope of bridging the digital divide between the young and old will be lost and it will greatly impact education since teachers will always be older than their students (Helsper & Eynon, 2010). The authors recognised that in predicting the behaviours of digital natives, the breadth of activities executed by people online is the key variable to appraise alongside gender, education, and experience with technology. Certain individuals have a stronger desire for IT than others and the swathe of access to digital technology and skills is not matching in this generation and the differences are swayed by demographic factors (Teo, 2013).  With the issues of chanciness in elucidating digital natives Teo (2013) put forward an approach that focuses on individuals’ differences in the digital nativity. It summits the influential role of individual traits such as behavioural inclinations and psychological characteristics in deciding the important quality of a digital native rather than using age as a primary factor. On that account, the digital nativity is not a shared characteristic within an entire generation but becomes a set of attributes that characterise the individuals of the generation and varies between them. </p>
+                    <div id="image_caption">
+                        <img src="image.png" alt="content image">
+                        <caption>image caption</caption>
+                    </div>
+                    <p id="content_itself_part_two">  Sociodemographic traits become another factor that influences the use of digital technology and the time spent on a particular technology. In the research conducted by Kennedy et al. (2008), Thinyane (2010), Margaryan, Littlejohn & Vojt (2011) and Nagler & Ebner (2009), suggest that age is not the only factor that defines digital native but individual characteristics and socio-demographic traits also played a role as said in the review of literature by Teo (2010).  The availability of digital technology, the need for digital technology, and the gender and frequency of use sometimes characterise one to be a digital native and these factors also lead to digital addiction among the natives. 
+                        Digital technology has greatly impacted the way people communicate, access information, and entertain themselves. However, excessive use of digital devices and the internet has also led to the phenomenon of digital addiction. Digital addiction is a topic that has garnered much attention in recent years, as the prevalence of digital technology continues to increase globally. In the current generation, digital addiction is very common and it’s not surprising since they are speakers of the digital language thereby considered to be digital natives.
+                        Digital addiction among university students is a growing concern, as they are considered a high-risk group for developing this condition (Dahl & Bergmark, 2020). The intensive academic and social demands of university life often expose students to digital technology and the internet, leading to negative consequences such as decreased physical and social activities, decreased academic performance, and mental health problems (Christakis, 2019). Frequent and repetitive engagement in digital technology may alter brain structure and function underlying specific cognitive processes (Guangheng Dong & Marc N. Potenza, 2014). 
+                        While there is no concurrence made on the reality, definition, or diagnostic criteria of digital addiction, there have been various health organisations that have acknowledged that some aspects of digital device usage may be denoting an underlying condition (Cemiloglu, Deniz, Almourad, Mohamed Basel, McAlaney, John, Ali & Raian, 2022). The issue of digital addiction has been studied in various forms, such as smartphone addiction, social media addiction, gaming addiction, internet addiction, and cybersex addiction (Meng, Cheng, Li, Yang, Zheng, Chang, & Shi, 2022). 
+                        The relationship between digital nativism and digital addiction is complex and not fully understood. Some studies suggest that being a digital native may increase the risk of developing digital addiction, as digital natives are more likely to have grown up with technology and may find it more difficult to disconnect. On the other hand, digital natives may also be better equipped to manage their technology use and avoid addictive behaviours. It is important to note that other factors, such as individual characteristics, social and cultural factors, and access to technology likely influence the relationship between digital nativism and digital addiction. Further research is needed to understand this relationship fully and to develop effective interventions to prevent and treat digital addiction.</p>
+                </div>
+                <hr>
+                <h3>UP NEXT</h3>
+                <section class="upnext">
+                    <div class="upnext_content">
+                    <div id="upnext_image_bakcground"><img src="Rectangle 81.png" alt=""></div>
+                    <a href="link to the next blog content" id="upnext_blog_read"><h5>Smoove at 3</h5><img src="Arrow_Right_SM 1.svg" alt=""></a>
+                    <p id="upnext_description">King Charles ‘embarrassed’ by Prince Harry as monarch. King Charles ‘embarrassed’...</p>
+                    </div>
+                    <div class="upnext_content">
+                    <div id="upnext_image_bakcground"><img src="Rectangle 81.png" alt=""></div>
+                    <a href="link to the next blog content" id="upnext_blog_read"><h5>Smoove at 3</h5><img src="Arrow_Right_SM 1.svg" alt=""></a>
+                    <p id="upnext_description">King Charles ‘embarrassed’ by Prince Harry as monarch. King Charles ‘embarrassed’...</p>
+                    </div>
+                    <div class="upnext_content">
+                    <div id="upnext_image_bakcground"><img src="Rectangle 81.png" alt=""></div>
+                    <a href="link to the next blog content" id="upnext_blog_read"><h5>Smoove at 3</h5><img src="Arrow_Right_SM 1.svg" alt=""></a>
+                    <p id="upnext_description">King Charles ‘embarrassed’ by Prince Harry as monarch. King Charles ‘embarrassed’...</p>
+                    </div>
+                </section>
+
+            </section>
+
+            <section class="consider_reading_ads">
+            <div class="hyperlinks">
+                <div id="topics"><h5>YOU CAN ALSO VIEW</h5></div>
+                <div id="contents">
+                    <div id="one">
+                        <p id="text">excerpt *10</p>
+                        <img src="" alt="" id="imageback">
+                    </div>
+                    <div id="two">
+                        <p id="text">excerpt *10</p>
+                        <img src="" alt="" id="imageback">
+                    </div>
+                    <div id="three">
+                        <p id="text">excerpt *10</p>
+                        <img src="" alt="" id="imageback">
+                    </div>
+                    <div id="four">
+                        <p id="text">excerpt *10</p>
+                        <img src="" alt="" id="imageback">
+                    </div>
+                    <div id="five">
+                        <p id="text">excerpt *10</p>
+                        <img src="" alt="" id="imageback">
+                    </div>
+                    <div id="six">
+                        <p id="text">excerpt *10</p>
+                        <img src="" alt="" id="imageback">
+                    </div>
+                </div>
+            </div>
+            <div class="ads"></div>
+        </section>
+
+        </section>
+    </main>
+    
+
+    <footer class="footer">
+        <section class="top">
+            <div class="left">
+                <div class="footer-logo">
+                    <img src="Frame 33.svg" alt="smoove logo"><span>Smoove</span>
+                </div>
+                <div class="footlinks">
+                    <a href="" id="footer-links">Contact</a>
+                    <a href="" id="footer-links">Lifestyle</a>
+                    <a href="" id="footer-links">Sports</a>
+                    <a href="" id="footer-links">Technology</a>
+                    <a href="" id="footer-links">Entertainment</a>
+                </div>
+            </div>
+            <div class="right">
+                <div id="newsletter">
+                    <p id="newletter-text">
+                        Get the latest updates on news, lifestyle, sports,<br> entertainment and business brought straight to your <br>email.
+                    </p>
+                    <form action="process_form.php" id="newsletter">
+                        <label for="email"></label>
+                        <input type="email" placeholder="Enter your email here" id="footer-email">
+                        <button name="submit" value="submit" id="footer-submit">submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <hr><div id="rule"></div>
+        <section class="down">
+            <div id="span">
+                <a href="instagrm link"><img src="InstagramLogo 1.svg" alt="instagram icon"></a>
+                <a href="x link"><img src="TwitterLogo 1.svg" alt="twitter icon"></a>
+                <a href="facebook"><img src="FacebookLogo 1.svg" alt="facebook icon"></a>
+                <a href="youtube link"><img src="LinkedinLogo 1.svg" alt="linkedin icon"></a>
+                <a href="telegram link"><img src="TelegramLogo 1.svg" alt="telegram icon"></a>
+            </div>
+            <!-- <div id="span">
+                <div id="footer-ads"></div>
+                <div id="footer-ads"></div>
+                <div id="footer-ads"></div>
+                <div id="footer-ads"></div>
+            </div> -->
+            <div id="span2">
+                <h5>
+                    &copy;2023
+                </h5>
+                <h5>
+                    Terms of Service
+                </h5>
+                <h5>
+                    Privacy Policy
+                </h5>
+            </div>
+        </section>
+    </footer>
+
+
+    <script>
+        window.addEventListener('scroll', function() {
+        var navTop = document.querySelector('.nav_top');
+        var logoToggle = document.querySelector('.logo-toggle');
+        
+        if (window.scrollY > 0) {
+            navTop.style.position = 'fixed';
+            navTop.style.top = '0';
+            navTop.style.left = '0';
+            logoToggle.style.display = 'block'; // Show the logo-toggle element
+        } else {
+            navTop.style.position = 'relative';
+            logoToggle.style.display = 'none'; // Hide the logo-toggle element
+        }
+    });
+
+    // Simulate scrolling on page load
+    window.scrollTo(0, 1);
+        // Simulate scrolling on page load
+        window.scrollTo(0, 1);
+    
+        // menu expanding
+        var menu = document.querySelector('.menu');
+        var linkItems = document.querySelector('#link_items');
+        var mainNav = document.querySelector('#main_nav');
+
+        
+    // Event listener for the "menu" element
+    menu.addEventListener('click', function() {
+            // Toggle the display of the link_items container
+            linkItems.style.display = (linkItems.style.display === 'block') ? 'none' : 'block';
+    
+            // Toggle the display of the main_nav container
+            mainNav.style.display = (mainNav.style.display === 'block') ? 'none' : 'block';
+        });
+    
+        // Event listener for the link_items overlay (to hide it when clicked)
+        linkItems.addEventListener('click', function() {
+            linkItems.style.display = 'none';
+            mainNav.style.display = 'none'; // Hide main_nav when overlay is clicked
+        });
+    
+        function toggleMenu() {
+            const linkItems = document.getElementById("link_items");
+            linkItems.classList.toggle("active"); // Add or remove "active" class
+            
+            const mainNav = document.getElementById("main_nav");
+            mainNav.classList.toggle("active"); // Add or remove "active" class for #main_nav
+        }
+    
+    
+        // searching
+        const searchInput = document.getElementById("searchInput");
+        const searchIcon = document.getElementById("searchIcon");
+        const searchCloseIcon = document.getElementById("searchCloseIcon");
+    
+        searchIcon.addEventListener("click", function() {
+            searchInput.style.display = "block";
+            searchCloseIcon.style.display = "block";
+            searchInput.focus(); // Set focus on the search input
+        });
+    
+        searchCloseIcon.addEventListener("click", function() {
+            searchInput.style.display = "none";
+            searchCloseIcon.style.display = "none";
+        });
+    
+        // Add event listener for search icon to perform search
+        searchIcon.addEventListener("click", function() {
+            if (searchInput.style.display === "block") {
+                const searchTerm = searchInput.value.trim();
+                if (searchTerm !== "") {
+                    // Perform a search action based on the searchTerm
+                    // For example, you can redirect the user to a search results page:
+                    window.location.href = "search-results.html?q=" + encodeURIComponent(searchTerm);
+                }
+            }
+        });
+    
+        // Initially hide search input and close icon
+        searchInput.style.display = "none";
+        searchCloseIcon.style.display = "none";
+    </script>
+    
+</body>
+</html>

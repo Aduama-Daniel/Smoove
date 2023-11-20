@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="/icons/Frame 33.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/css.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    
+    <header class="header">
+        <section class="navigation">
+            <div class="nav_top">
+                <div class="top_items">
+                    <a href="home.html"><div class="logo-toggle"><img src="/icons/small.svg" alt=""></div></a>
+                    <div class="date">
+                        <icon class="calender"><img src="/icons/Calendar_Days 1.svg" alt="calender icon"></icon>
+                        <span id="date_items">
+                                <script>
+                                    function displayDate() {
+                                        const dateElement = document.getElementById("date_items");
+                                        const currentDate = new Date().toDateString();
+                                        dateElement.innerHTML += ` ${currentDate}`;
+                                    }
+                                    displayDate();
+                                </script>                          
+                        </span>
+                    </div>
+                    <div class="links">
+                        <ul id="main_nav">
+                            <li><a href="Contact page" id="mainlinks">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="socials">
+                        <a href="instagrm link"><img src="/icons/intagram black.svg" alt="instagram icon"></a>
+                        <a href="x link"><img src="/icons/titter black.svg" alt="twitter icon"></a>
+                        <a href="facebook"><img src="/icons/faceboom black.svg" alt="facebook icon"></a>
+                        <a href="youtube link"><img src="/icons/faceboom black.svg" alt="linkedin icon"></a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+    </header>
+
+
+    <main class="contact_wrapper">
+        <section class="left">
+            <div class="text_icons">
+                <div id="heading">
+                    <h1>Where we are</h1>
+                </div>
+                <div id="others">
+                    <div id="icon_content">
+                        <img src="/icons/Location 1.svg" alt="location icon"><p>Accra - Ghana</p>
+                    </div>
+                    <div id="icon_content">
+                        <img src="/icons/letter 1.svg" alt="envelop icon"><a href="mailto:"receipient@info@smoove247.com">info@smoove247.com</a>
+                    </div>
+                    <div id="icon_content">
+                        <img src="/icons/phone-call 1.svg" alt="location"><a href="tel:+23355949 1318">+233 55 949 1318</a>
+                    </div>
+                    <div id="icons_all">
+                        <a href=""><img src="/icons/TiktokLogo 1.svg" alt=""></a>
+                        <a href=""> <img src="/icons/InstagramLogo 1.svg" alt=""></a>
+                        <a href=""><img src="/icons/TwitterLogo 1.svg" alt=""></a>
+                        <a href=""> <img src="/icons/FacebookLogo 1.svg" alt=""></a>
+                        <a href=""><img src="/icons/YoutubeLogo 1.svg" alt=""></a>
+                        <a href=""><img src="/icons/LinkedinLogo 1.svg" alt=""></a>
+                        <a href=""><img src="/icons/TelegramLogo 1.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="right">
+            <div class="header_sub">
+                <h1 id="title">We’d love to hear from you</h1>
+                <p>Contact us regarding any concerns or inquiries</p>
+            </div>
+            <form action="process_form.php" method="post">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required placeholder="Enter your name here..."><br><br>
+        
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="name@example.com"><br><br>
+        
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required placeholder="enter your message here"></textarea><br><br>
+                
+                <button type="submit">Submit <img src="/icons/Send 1.svg" alt=""></button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
